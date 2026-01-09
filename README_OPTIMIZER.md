@@ -43,13 +43,13 @@ pip install -r requirements.txt
 ### 3. Current Environment (Ready to Use)
 If you are on the machine where this was created, the environment is already set up:
 ```bash
-./venv/bin/python3 run_fantasy_demo.py
+./venv/bin/python3 -m src.main
 ```
 
 ## Configuration & Usage
 
 ### 1. Configure Your Rosters & Settings
-Open `demo_rosters.json`. This is the control center for the tool.
+Open `inputs/rosters.json`. This is the control center for the tool.
 
 ```json
 {
@@ -79,7 +79,7 @@ Open `demo_rosters.json`. This is the control center for the tool.
 
 ### 2. Run the Optimizer
 ```bash
-./venv/bin/python3 run_fantasy_demo.py
+./venv/bin/python3 -m src.main
 ```
 
 ### 3. View the Report
