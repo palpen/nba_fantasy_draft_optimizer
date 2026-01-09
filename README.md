@@ -1,7 +1,9 @@
-# NBA Fantasy Optimizer 2026
+# NBA Fantasy Draft Optimizer
 
 ## Overview
-This tool automates the process of optimizing your NBA Fantasy Head-to-Head lineup. It replaces manual spreadsheet tracking by automatically fetching **real-time 2025-26 Season Stats** (or historical windows) and the **Weekly Schedule** to project your matchup results.
+Automate the process of optimizing your NBA Fantasy Head-to-Head lineup! 
+
+It replaces manual spreadsheet tracking by automatically fetching **real-time season stats** (or historical windows) and the **Weekly Schedule** to project your matchup results.
 
 It analyzes your team vs. your opponent and recommends the best "Streamers" (Free Agents) to pick up to flip close categories.
 
@@ -37,10 +39,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Best Practices (Version Control)
-**Note on `venv/`:** You should **NOT** include the `venv/` folder in version control (e.g., Git). Virtual environments contain machine-specific paths and binaries. Instead, always share the `requirements.txt` file.
-
-### 3. Current Environment (Ready to Use)
+### 2. Current Environment (Ready to Use)
 If you are on the machine where this was created, the environment is already set up:
 ```bash
 ./venv/bin/python3 -m src.main
