@@ -1,0 +1,28 @@
+{
+  "config": {
+    "lookback": "14",
+    "current_date": "2026-01-08"
+  },
+  "my_team": [
+    "Immanuel Quickley",
+    "Jaylen Wells",
+    "Desmond Bane",
+    "Bobby Portis",
+    "Onyeka Okongwu",
+    "Nickeil Alexander-Walker",
+    "Brandon Williams",
+    "Franz Wagner",
+    "Nikola Jokic"
+  ],
+  "opponent_team": [
+    "LaMelo Ball",
+    "Anthony Edwards",
+    "Max Christie",
+    "Matas Buzelis",
+    "Jusuf Nurkic",
+    "Nic Claxton",
+    "Donovan Clingan",
+    "Peyton Watson",
+    "Trey Murphy III"
+  ]
+}

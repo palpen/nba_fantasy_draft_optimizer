@@ -1,0 +1,17 @@
+# Dependencies
+venv/
+
+# Personal Data / Large Files
+Scarbizzy 2021.xlsb.xlsx
+instructions/
+
+# Generated Reports
+fantasy_report_*.md
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# System
+.DS_Store
+.gemini/
